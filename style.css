@@ -65,6 +65,42 @@
     color: #444;
 }
 
+.email {
+    background-color: rgb(231, 215, 215);
+    font-size: 20px;
+    color: rgb(241, 38, 38);
+    border: 2px solid #444;
+}
+
+.contact-icon i {
+    font-size: 30px;
+    color: rgb(65, 65, 66);
+    border: 2px solid #444;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.contact-icon i:hover {
+    background-color: rgb(65, 65, 66);
+    color: white;
+    font-size: 32px;
+}
+
+.sign-up {
+    background-color: rgb(231, 215, 215);
+    font-size: 20px;
+    color: rgb(226, 44, 44);
+    border: 2px solid #444;
+    padding: 0 150px;
+    transition: 1s;
+}
+
+.sign-up:hover {
+    background-color: #444;
+    border: 2px solid rgb(231, 215, 215);
+}
+
 
 /* footer */
 
@@ -97,6 +133,18 @@
     .footer-h4 h4 {
         position: relative;
         top: 3px;
+    }
+    .contact-text {
+        margin: 3%;
+    }
+    .contact-from {
+        margin: 3%;
+    }
+    .sign-up {
+        padding: 0 110px;
+    }
+    .email {
+        padding: 20px 10px !important;
     }
 }
 
