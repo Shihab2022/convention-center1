@@ -24,3 +24,24 @@
     margin: 0;
     /* background-size: cover; */
 }
+
+.icon-card {
+    background-color: rgb(245, 247, 248);
+    border-radius: 30px;
+    padding: 10px 15px;
+    grid-gap: 5px;
+}
+
+.icon i {
+    background-color: rgb(230, 231, 248);
+    border-radius: 50%;
+    color: rgb(15, 128, 228);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.icon span {
+    font-size: 18px;
+    margin: 5px 3%;
+    color: #444;
+}
