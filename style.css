@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hotel-name {
+    font-family: 'Righteous', cursive;
+}
+
+.carousel-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: .5;
+}
+
+.slider-section img {
+    height: 87vh;
+    margin: 0;
+    /* background-size: cover; */
+}
