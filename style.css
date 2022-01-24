@@ -66,6 +66,19 @@
 }
 
 
+/* footer */
+
+.footer-section .playstore {
+    height: 80px;
+    width: 200px;
+}
+
+.footer-h4 h4 {
+    position: relative;
+    top: 200px;
+}
+
+
 /* responsive section */
 
 
@@ -80,6 +93,10 @@
     .icon-card {
         background-color: rgb(193, 195, 196);
         width: 85%;
+    }
+    .footer-h4 h4 {
+        position: relative;
+        top: 3px;
     }
 }
 
@@ -96,6 +113,13 @@
         width: 45%;
         margin-left: 30px;
     }
+    .footer-h4 h4 {
+        position: relative;
+        top: 2px;
+    }
+    .question img {
+        width: 100%;
+    }
 }
 
 @media (min-width: 993px) and (max-width: 1392px) {
@@ -107,5 +131,12 @@
         background-color: rgb(193, 195, 196);
         width: 30%;
         margin-left: 30px;
+    }
+    .hot-card {
+        display: none;
+    }
+    .question img {
+        width: 100%;
+        margin-left: 5%;
     }
 }
